@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100vw;
+    height: 80vh;
+    background-image: linear-gradient(to right,green,black);
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color:white;
+}
+.header .info h3{
+    color: gray;
+}
+.services h1{
+    text-align:center;
+    margin-bottom:3rem;
+}
+.services{
+    padding:3rem;
+    text-align:center;
+}
+.services .container .row .col{
+    margin-top: 3rem;
+}
+.services button{
+    margin-top:3rem;
+}
+.card{
+    display: inline-block;
+}
+
+
+/* //////////////////////////////////Skills Div//////////////////////////////////// */
+.skills{
+    padding-bottom:5rem;
+}
+.skills h1{
+    text-align: center;
+}
+
+/* //////////////////////////////////Pricing Div//////////////////////////////////// */
+.pricing{
+    width:100vw;
+    height:100vh;
+    background-color:aliceblue;
+    padding:5rem;
+    text-align: center;
+}
+.pricing h1{
+    text-align:center;
+    text-transform: uppercase;
+    color:green;
+}
+
+/* //////////////////////////////////footer Div//////////////////////////////////// */
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+    line-height: 10vh;
+}
+.footer p{
+    color:white;
+}
+
+html{
+    font-size: 100%;
+}
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 60%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 70%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html{
+        font-size: 80%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size:100%;
+    }
+}
+
+
